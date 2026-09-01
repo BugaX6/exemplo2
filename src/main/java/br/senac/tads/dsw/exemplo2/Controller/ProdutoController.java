@@ -1,4 +1,4 @@
-package br.senac.tads.Controller;
+package br.senac.tads.dsw.exemplo2.Controller;
 
 import java.net.URI;
 
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import br.senac.tads.dsw.exemplo2.Model.Produto;
-import br.senac.tads.repository.ProdutoRepository;
+import br.senac.tads.dsw.exemplo2.repository.ProdutoRepository;
 
 @RestController
 @RequestMapping("/api/produtos")
